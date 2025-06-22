@@ -8,7 +8,34 @@ import { Image } from 'astro:assets';
 
 type Props = CollectionEntry<'movies'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, tmdbURL } = Astro.props;
+
+async function getBackdropImage(tmdbURL: string | undefined) {
+    if (!tmdbURL) return null;
+    const movieId = tmdbURL.split('/').pop();
+    if (!movieId) return null;
+
+    const apiURL = `https://api.themoviedb.org/3/movie/${movieId}/images`;
+
+    const response = await fetch(apiURL, {
+        headers: {
+            Authorization: `Bearer ${import.meta.env.PUBLIC_TMDB_API_KEY}`,
+            'Content-Type': 'application/json',
+        },
+    });
+
+    if (response.ok) {
+        const data = await response.json();
+        if (data.backdrops && data.backdrops.length > 0) {
+            return `https://image.tmdb.org/t/p/w1280${data.backdrops[0].file_path}`;
+        }
+    }
+    return null;
+}
+
+const backdropImage = await getBackdropImage(tmdbURL);
+
+
 ---
 
 <html lang="en">
@@ -60,7 +87,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
+					{backdropImage && <Image width={1020} height={510} src={backdropImage} alt="" />}
 				</div>
 				<div class="prose">
 					<div class="title">

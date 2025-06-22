@@ -17,5 +17,12 @@ const { Content } = await render(post);
 ---
 
 <MovieBlogPost {...post.data}>
-	<Content />
+	<div class="slot-content">
+		<Content />
+	</div>
 </MovieBlogPost>
+<style>
+ :global(.slot-content h2) {
+    font-size: 2.1rem;
+  }
+</style>

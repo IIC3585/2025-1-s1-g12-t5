@@ -25,13 +25,12 @@ const movies = defineCollection({
 		// Transform string to Date object
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
-		heroImage: image().optional(),
+		tmdbURL: z.string().optional(),
 
 		author: z.string(),
 		tags: z.array(z.string()).optional(),
 		year: z.number().optional(),
 		director: z.string().optional(),
-		posterURL: z.string().optional(),
 
 	}),
 });

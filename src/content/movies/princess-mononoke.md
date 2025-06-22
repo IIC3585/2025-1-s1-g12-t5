@@ -8,29 +8,27 @@ layout: ../../layouts/BlogLayout.astro
 tags: ["Studio Ghibli", "Movie Review", "Animation", "Japan"]
 year: 1997
 director: "Hayao Miyazaki"
-posterURL: "/images/princess-mononoke.jpg"
+tmdbURL: "https://www.themoviedb.org/movie/128"
 ---
-# Princess Mononoke
-
 Studio Ghibli's *Princess Mononoke* stands as a hallmark of Japanese animation and storytelling excellence. This review delves into the film’s artistic direction, narrative structure, character development, musical composition, and thematic richness.
 
-## 🎨 Visual Style
+## Visual Style
 
 The film’s animation is a signature of Hayao Miyazaki’s vision, characterized by lush hand-drawn backgrounds, fluid motion, and attention to the smallest details that breathe life into its world.
 
-## 🧠 Narrative Depth
+## Narrative Depth
 
 Unlike typical Western animation, *Princess Mononoke* weaves complex themes such as environmentalism, pacifism, and identity, without losing its charm for audiences of all ages.
 
-## 🎼 Music & Sound Design
+## Music & Sound Design
 
 Joe Hisaishi’s score complements the visual experience perfectly, reinforcing emotional arcs and adding an ethereal dimension to the storytelling.
 
-## 🧍 Character Development
+## Character Development
 
 Characters in *Princess Mononoke* are deeply human — flawed, evolving, and unforgettable. Even side characters often reflect broader themes or moral dilemmas.
 
-## 🧭 Final Thoughts
+## Final Thoughts
 
 *Princess Mononoke* is more than a film; it is an experience that resonates emotionally and intellectually. A timeless piece of art that stands tall among Ghibli's best.
 
