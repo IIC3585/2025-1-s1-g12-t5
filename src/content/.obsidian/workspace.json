@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "4a10da7c42bee04a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfb68d1e9b8f81d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "295a792f89793554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "movies/porco-rosso.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "porco-rosso"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "89c41c43b76bed96",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc063c235d3754c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7d05a731583f117",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0bb0f310e504e718",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6fca5970e3e65ce0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb50770ca5d1c8ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "200cd013cab928a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7d50d4cc63f4782",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "movies/arrival.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for arrival"
+            }
+          },
+          {
+            "id": "84cbaa89858ab2dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "movies/arrival.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from arrival"
+            }
+          },
+          {
+            "id": "a5463c8d3aa1cde2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "83d0d07166d6d113",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "movies/arrival.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of arrival"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "295a792f89793554",
+  "lastOpenFiles": [
+    "movies/treasure-planet.md",
+    "movies/the-secret-life-of-walter-mitty.md",
+    "movies/the-holdovers.md",
+    "movies/the-emperors-new-groove.md",
+    "movies/inside-out.md",
+    "movies/big-fish.md",
+    "movies/fantastic-mr-fox.md",
+    "movies/barbie.md",
+    "movies/wicked.md",
+    "movies/dead-poets-society.md",
+    "movies/the-imitation-game.md",
+    "movies/soul.md",
+    "movies/shrek.md",
+    "movies/porco-rosso.md",
+    "movies/jurassic-park.md",
+    "movies/avatar.md",
+    "movies/2001-a-space-odyssey.md",
+    "movies/the-shining-1980.md",
+    "movies/gladiator-2000.md",
+    "movies/pelicula.md",
+    "movies/the-godfather.md",
+    "movies/loving-vincent.md",
+    "movies/flow.md",
+    "movies/little-women-2019.md",
+    "movies/star-wars-episode-iv-a-new-hope.md",
+    "movies/captain-fantastic.md"
+  ]
+}
