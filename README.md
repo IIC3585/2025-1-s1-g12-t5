@@ -1,4 +1,4 @@
-# Astro Starter Kit: Blog
+# T5 Grupo 12: Astro
 
 Production version of this project: [movies-87.web.app](https://movies-87.web.app/)
 
