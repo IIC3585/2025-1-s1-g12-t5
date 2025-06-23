@@ -9,6 +9,7 @@ tags: ["Movie Review", "Science Fiction", "First Contact", "Denis Villeneuve", "
 year: 2016
 director: "Denis Villeneuve"
 tmdbURL: "https://www.themoviedb.org/movie/329865"
+summary: "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world."
 ---
 
 Denis Villeneuve’s *Arrival* transforms a first‑contact premise into a deeply human and philosophical journey. Anchored by Amy Adams’s performance, mesmerizing cinematography, and haunting sound design, it’s a landmark of modern sci‑fi that lingers long after the credits roll. :contentReference[oaicite:0]{index=0}
@@ -19,7 +20,7 @@ Bradford Young’s Oscar‑nominated work employs natural lighting, muted palett
 
 ## Narrative & Themes
 
-Adapted by Eric Heisserer from Ted Chiang’s “Story of Your Life,” *Arrival* masterfully blends a reverse‑chronology twist with themes of communication, grief, and non‑linear time. It explores how language shapes cognition, referencing the Sapir‑Whorf hypothesis, and uses the palindrome motif of “Hannah” to mirror its circular structure. :contentReference[oaicite:2]{index=2}  
+Adapted by Eric Heisserer from Ted Chiang’s “Story of Your Life,” *Arrival* masterfully blends a reverse‑chronology twist with themes of communication, grief, and non‑linear time. It explores how language shapes cognition, referencing the Sapir‑Whorf hypothesis, and uses the palindrome motif of “Hannah” to mirror its circular structure. :contentReference[oaicite:2]{index=2}
 
 ## Music & Sound Design
 
@@ -31,8 +32,9 @@ Amy Adams delivers a performance of quiet strength and introspection as linguist
 
 ## Sound & Cinematic Detail (Reddit Perspectives)
 
-> "You can “watch” this movie with the picture off and still be entertained, I swear. The sound is amazing." :contentReference[oaicite:5]{index=5}  
-> "The soundtrack and audio are masterful … leaving the viewer wondering the source of what they're listening to." :contentReference[oaicite:6]{index=6}
+> "You can “watch” this movie with the picture off and still be entertained, I swear. The sound is amazing."
+
+> "The soundtrack and audio are masterful … leaving the viewer wondering the source of what they're listening to."
 
 These fan reflections underscore how *Arrival*’s auditory landscape elevates the narrative, making the unseen feel profoundly present.
 

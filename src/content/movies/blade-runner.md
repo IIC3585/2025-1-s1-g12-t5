@@ -9,6 +9,7 @@ tags: ["Movie Review", "Science Fiction", "Noir", "Cyberpunk", "Phillip K. Dick"
 year: 1982
 director: "Ridley Scott"
 tmdbURL: "https://www.themoviedb.org/movie/78"
+summary: "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator."
 ---
 
 Ridley Scott’s *Blade Runner* fuses film‑noir aesthetics, cyberpunk futurism, and existential philosophy into a haunting cinematic experience. More than visual spectacle, it probes what it means to be human—and the thin line separating man and machine.
