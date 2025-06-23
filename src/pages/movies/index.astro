@@ -6,10 +6,19 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 import { Image } from "astro:assets";
+import { ComboboxDemo } from "@/components/react/combobox";
 
 const movies = (await getCollection("movies")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
+// Prepare movie data for the combobox
+const moviesForCombobox = movies.map(movie => ({
+  id: movie.id,
+  title: movie.data.title,
+  year: movie.data.year,
+  director: movie.data.director
+}));
 
 async function getBackdropImage(tmdbURL: string | undefined) {
   if (!tmdbURL) return null;
@@ -107,11 +116,29 @@ async function getBackdropImage(tmdbURL: string | undefined) {
           font-size: 1.563em;
         }
       }
+      
+      .search-section {
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      
+      .search-section h2 {
+        margin-bottom: 1rem;
+        color: rgb(var(--black));
+        font-size: 1.5rem;
+      }
     </style>
   </head>
   <body>
     <Header />
     <main>
+      <div class="search-section">
+        <h2>Search Movies</h2>
+        <ComboboxDemo 
+          movies={moviesForCombobox} 
+          client:load 
+        />
+      </div>
       <section>
         <ul>
           {
